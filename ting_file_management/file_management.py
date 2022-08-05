@@ -1,5 +1,5 @@
-from pydoc import resolve
 import sys
+
 
 def txt_importer(path_file):
     if path_file.endswith(".txt"):
@@ -8,6 +8,6 @@ def txt_importer(path_file):
                 content: str = f.read()
                 return content.split("\n")
         except FileNotFoundError:
-            print(f"Arquivo {path_file} não encontrado", file = sys.stderr)     
+            print(f"Arquivo {path_file} não encontrado", file=sys.stderr)
     else:
-        print("Formato inválido", file = sys.stderr)
+        print("Formato inválido", file=sys.stderr)
