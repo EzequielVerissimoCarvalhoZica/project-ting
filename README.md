@@ -1,3 +1,5 @@
+### Bem Vindo(a) ao projeto Ting
+
 Neste projeto eu implementei um programa que simule um algoritmo de indexação de documentos similar ao do Google. Meu programa é ser capaz de identificar ocorrências de termos em arquivos TXT.
 
 O programa desenvolvido por você deverá tem dois módulos:
